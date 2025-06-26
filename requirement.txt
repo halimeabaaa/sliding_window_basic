@@ -1,0 +1,7 @@
+langchain==0.2.10
+langchain-community==0.2.9   #langchain ile entegre olan açık kaynaklı bileşenler
+langchain-google-genai==0.0.9
+langchain-text-splitters==0.2.2 #metinleri bölmek,RAG kullanmak veya uzun metin işlemeye yarar
+google-generativeai==0.3.2
+pypdf==3.17.4
+python-dotenv==1.0.1
