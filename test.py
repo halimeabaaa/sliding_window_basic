@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 load_dotenv()
 
 
-pdf_loader=PyPDFLoader("tip.pdf")
+pdf_loader=PyPDFLoader("dosya_adi.pdf")
 docs=pdf_loader.load()
 
 def sliding_window_summarize(docs):
